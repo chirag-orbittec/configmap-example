@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: alpine
-      image: docker.io/alpine
+      image: docker.intuit.com/nginx
       envFrom:
         - configMapRef:
             name: example-props
